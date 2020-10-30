@@ -1,0 +1,14 @@
+.label {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.dropdown-toggle, .dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-menu, .form-control {
+    max-height: 300px;
+    overflow-y: scroll;
+    text-align: center;
+}

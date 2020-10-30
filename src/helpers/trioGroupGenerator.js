@@ -16,7 +16,6 @@ function* generateNextTrioGroup(input, need, max) {
     // Get all the skills that were included, but not needed.
     const dontCares = [...new Set(input.join().split(','))].filter(n => !need.includes(n));
     // Get rid of all trios that contain only useless skills.
-    console.log(input, dontCares);
     input = input.filter(l => !l.every(el => dontCares.includes(el)));
 
     function* subset(arr, pool, memo) {
@@ -31,7 +30,7 @@ function* generateNextTrioGroup(input, need, max) {
             // A group is perfect IFF the pool of needed skills is exhausted. Make sure no duplicates ordered differently get added.
             if (localPool.length === 0 && perfectGroup.length <= max && seen.every(sol => sol.sort().join('') !== perfectGroup.sort().join(''))) {
                 seen.push(perfectGroup);
-                yield perfectGroup;
+                yield perfectGroup.map(trio => trio.map(num => parseInt(num)));
             }
 
             // Get rid of all trios that start with the same skill as the current trio and make sure every skill in each trio still needs to be maxed or is a useless skill. Recurse.

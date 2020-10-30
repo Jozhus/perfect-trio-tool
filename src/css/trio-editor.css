@@ -1,0 +1,29 @@
+.nodeWrapper {
+    display: inline-flex;
+    padding: 5px;
+}
+
+.container {
+    height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.skillIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.verticalDivider {
+    border-left: 1px solid rgba(140, 130, 115, 0.1);
+}
+
+.information {
+    text-align: center;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.nodes {
+    max-height: 740px;
+}

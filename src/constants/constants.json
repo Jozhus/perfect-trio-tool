@@ -1,0 +1,1575 @@
+{
+    "Hero": {
+        "skills": [
+            "Slash Blast",
+            "Final Attack",
+            "Brandish",
+            "Combo Fury",
+            "Intrepid Slash",
+            "Rush",
+            "Panic",
+            "Shout",
+            "Raging Blow",
+            "Puncture",
+            "Rising Rage"
+        ],
+        "important": [
+            7,
+            9,
+            0
+        ],
+        "decent": [
+            2,
+            4,
+            6
+        ],
+        "bad": [
+            1,
+            3,
+            5,
+            8
+        ]
+    },
+    "Paladin": {
+        "skills": [
+            "Slash Blast",
+            "Final Attack",
+            "Flame Charge",
+            "Blizzard Charge",
+            "Close Combat",
+            "Lightning Charge",
+            "Rush",
+            "Divine Charge",
+            "Blast",
+            "Heaven's Hammer",
+            "Smite Shield"
+        ],
+        "important": [
+            8,
+            5,
+            9
+        ],
+        "decent": [
+            7,
+            3,
+            2
+        ],
+        "bad": [
+            0,
+            1,
+            4,
+            6
+        ]
+    },
+    "Dark Knight": {
+        "skills": [
+            "Slash Blast",
+            "Final Attack",
+            "Piercing Drive",
+            "Spear Sweep",
+            "La Mancha Spear",
+            "Rush",
+            "Evil Eye",
+            "Dark Impale",
+            "Gungnir's Descent",
+            "Nightshade Explosion"
+        ],
+        "important": [
+            7,
+            8,
+            9,
+            6,
+            1
+        ],
+        "decent": [
+            5
+        ],
+        "bad": [
+            0,
+            2,
+            3,
+            4
+        ]
+    },
+    "Arch Mage (Fire, Poison)": {
+        "skills": [
+            "Energy Bolt",
+            "Flame Orb",
+            "Poison Breath",
+            "Ignite",
+            "Explosion",
+            "Poison Mist",
+            "Teleport Mastery",
+            "Flame Haze",
+            "Mist Eruption",
+            "Ifrit",
+            "Paralyze",
+            "Meteor Shower",
+            "Inferno Aura",
+            "Megiddo Flame"
+        ],
+        "important": [
+            10,
+            7,
+            8,
+            12,
+            13,
+            11
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9
+        ]
+    },
+    "Arch Mage (Ice, Lightning)": {
+        "skills": [
+            "Thunder Bolt",
+            "Cold Beam",
+            "Chilling Step",
+            "Ice Strike",
+            "Glacier Chain",
+            "Thunderstorm",
+            "Elquines",
+            "Chain Lightning",
+            "Blizzard",
+            "Frozen Orb",
+            "Lightning Orb"
+        ],
+        "important": [
+            7,
+            9,
+            10,
+            8
+        ],
+        "decent": [
+            6,
+            5
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "Bishop": {
+        "skills": [
+            "Heal",
+            "Holy Arrow",
+            "Shining Ray",
+            "Big Bang",
+            "Bahamut",
+            "Angel Ray",
+            "Genesis",
+            "Heaven's Door"
+        ],
+        "important": [
+            5,
+            3,
+            4
+        ],
+        "decent": [
+            6,
+            7
+        ],
+        "bad": [
+            0,
+            1,
+            2
+        ]
+    },
+    "Bowmaster": {
+        "skills": [
+            "Final Attack - Bow",
+            "Arrow Bomb",
+            "Flame Surge",
+            "Phoenix",
+            "Hookshot",
+            "Arrow Blaster",
+            "Hurricane",
+            "Binding Shot",
+            "Arrow Stream",
+            "Quiver Cartridge",
+            "Gritty Gust"
+        ],
+        "important": [
+            6,
+            0,
+            9,
+            5,
+            8
+        ],
+        "decent": [
+            3,
+            10
+        ],
+        "bad": [
+            1,
+            2,
+            4,
+            7
+        ]
+    },
+    "Marksman": {
+        "skills": [
+            "Arrow Blow",
+            "Final Attack - Crossbow",
+            "Iron Arrow",
+            "Net Toss",
+            "Frostprey",
+            "Dragon's Breath",
+            "Explosive Bolt",
+            "Hookshot",
+            "Piercing Arrow",
+            "Snipe",
+            "High Speed Shot"
+        ],
+        "important": [
+            9,
+            8,
+            10
+        ],
+        "decent": [
+            1,
+            4
+        ],
+        "bad": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            7
+        ]
+    },
+    "Pathfinder": {
+        "skills": [
+            "Cardinal Deluge and Bountiful Deluge",
+            "Cardinal Burst and Bountiful Burst",
+            "Cardinal Torrent",
+            "Shadow Raven",
+            "Swarm Shot",
+            "Triple Impact",
+            "Glyph of Impalement",
+            "Combo Assault",
+            "Ancient Astra"
+        ],
+        "important": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            3,
+            8,
+            7
+        ],
+        "decent": [],
+        "bad": []
+    },
+    "Night Lord": {
+        "skills": [
+            "Double Stab",
+            "Lucky Seven",
+            "Shuriken Burst",
+            "Gust Charm",
+            "Assassin's Mark",
+            "Shadow Web",
+            "Dark Flare",
+            "Triple Throw",
+            "Shade Splitter",
+            "Quad Star",
+            "Sudden Raid",
+            "Showdown",
+            "Death Star"
+        ],
+        "important": [
+            9,
+            4,
+            11,
+            6,
+            12,
+            10
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            8
+        ]
+    },
+    "Shadower": {
+        "skills": [
+            "Double Stab",
+            "Lucky Seven",
+            "Steal",
+            "Savage Blow",
+            "Phase Dash",
+            "Meso Explosion",
+            "Midnight Carnival",
+            "Dark Flare",
+            "Assassinate",
+            "Boomerang Stab",
+            "Sudden Raid",
+            "Shadow Veil"
+        ],
+        "important": [
+            8,
+            11,
+            10,
+            9,
+            7,
+            4
+        ],
+        "decent": [
+            3,
+            6,
+            5
+        ],
+        "bad": [
+            0,
+            1,
+            2
+        ]
+    },
+    "Dual Blade": {
+        "skills": [
+            "Bandit Slash",
+            "Tornado Spin",
+            "Fatal Blow",
+            "Slash Storm",
+            "Flashbang",
+            "Upper Stab",
+            "Blade Ascension",
+            "Flying Assaulter",
+            "Bloody Storm",
+            "Chains of Hell",
+            "Final Cut",
+            "Blade Fury",
+            "Phantom Blow",
+            "Sudden Raid",
+            "Asura's Anger",
+            "Blade Clone"
+        ],
+        "important": [
+            12,
+            11,
+            14,
+            13,
+            15
+        ],
+        "decent": [
+            6
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10
+        ]
+    },
+    "Buccaneer": {
+        "skills": [
+            "Somersault Kick",
+            "Double Shot",
+            "Corkscrew Blow",
+            "Tornado Uppercut",
+            "Energy Burst",
+            "Spiral Assault",
+            "Static Thumper",
+            "Dragon Strike",
+            "Octopunch",
+            "Nautilus Strike",
+            "Buccaneer Blast",
+            "Power Unity"
+        ],
+        "important": [
+            8,
+            11,
+            7,
+            10,
+            9,
+            5
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+        ]
+    },
+    "Corsair": {
+        "skills": [
+            "Somersault Kick",
+            "Double Shot",
+            "Rapid Blast",
+            "Recoil Shot",
+            "Scurvy Summons",
+            "Blunderbuster",
+            "Blackboot Bill",
+            "Octo-Cannon",
+            "Rapid Fire",
+            "Nautilus Strike",
+            "Brain Scrambler",
+            "Eight-Legs Easton",
+            "Majestic Presence",
+            "Broadside",
+            "Parrotargetting",
+            "Ugly Bomb"
+        ],
+        "important": [
+            8,
+            13,
+            12,
+            11
+        ],
+        "decent": [
+            15,
+            9
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            14
+        ]
+    },
+    "Cannoneer": {
+        "skills": [
+            "Cannon Blaster",
+            "Cannon Strike",
+            "Blast Back",
+            "Scatter Shot",
+            "Barrel Bomb",
+            "Cannon Spike",
+            "Monkey Wave",
+            "Cannon Jump",
+            "Barrel Roulette",
+            "Monkey Fury",
+            "Cannon Bazooka",
+            "Nautilus Strike",
+            "Anchors Away",
+            "Monkey Militia",
+            "Cannon Barrage",
+            "Rolling Rainbow"
+        ],
+        "important": [
+            14,
+            10,
+            15,
+            13,
+            9
+        ],
+        "decent": [
+            11
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            12
+        ]
+    },
+    "Jett": {
+        "skills": [
+            "Starline One",
+            "Blaster Barrage",
+            "Starline Two",
+            "Stellar Impact",
+            "Vortex Cross",
+            "Falling Stars",
+            "Starline Three",
+            "Cosmic Upheaval",
+            "Starforce Salvo",
+            "Backup Beatdown",
+            "Planet Buster",
+            "Singularity Shock"
+        ],
+        "important": [
+            0,
+            8,
+            11
+        ],
+        "decent": [],
+        "bad": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10
+        ]
+    },
+    "Dawn Warrior": {
+        "skills": [
+            "Triple Slash",
+            "Flicker and Bluster",
+            "Trace Cut and Shadow Tackle",
+            "Moon Shadow and Light Merger",
+            "Moon Cross and Sun Cross",
+            "Moon Dancer and Speeding Sunset",
+            "Crescent Divide and Solar Pierce",
+            "Impaling Rays",
+            "Styx Crossing",
+            "Equinox Slash"
+        ],
+        "important": [
+            5,
+            6,
+            8
+        ],
+        "decent": [
+            1,
+            4,
+            7
+        ],
+        "bad": [
+            0,
+            2,
+            3,
+            9
+        ]
+    },
+    "Blaze Wizard": {
+        "skills": [
+            "Orbital Flame",
+            "Flame Bite",
+            "Flame Vortex",
+            "Ignition",
+            "Flame Tempest",
+            "Cinder Maelstrom",
+            "Blazing Extinction",
+            "Towering Inferno",
+            "Cataclysm",
+            "Dragon Blaze"
+        ],
+        "important": [
+            0,
+            6,
+            3
+        ],
+        "decent": [
+            7,
+            8,
+            5
+        ],
+        "bad": [
+            1,
+            2,
+            4,
+            9
+        ]
+    },
+    "Wind Archer": {
+        "skills": [
+            "Breeze Arrow",
+            "Fairy Spiral",
+            "Gust Shot",
+            "Trifling Wind",
+            "Sentient Arrow",
+            "Pinpoint Pierce",
+            "Song of Heaven",
+            "Spiraling Vortex",
+            "Monsoon",
+            "Storm Bringer"
+        ],
+        "important": [
+            6,
+            3,
+            9
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7,
+            8
+        ]
+    },
+    "Night Walker": {
+        "skills": [
+            "Lucky Seven",
+            "Shadow Bat",
+            "Triple Throw",
+            "Quad Star",
+            "Shadow Spark",
+            "Quintuple Star",
+            "Dark Omen",
+            "Shadow Stitch",
+            "Dominion"
+        ],
+        "important": [
+            5,
+            4,
+            1,
+            6
+        ],
+        "decent": [
+            7,
+            8
+        ],
+        "bad": [
+            0,
+            2,
+            3
+        ]
+    },
+    "Thunder Breaker": {
+        "skills": [
+            "Lightning Punch",
+            "Flash",
+            "Shark Sweep",
+            "Tidal Crash",
+            "Ascension",
+            "Thunder",
+            "Gale",
+            "Annihilate",
+            "Thunderbolt",
+            "Deep Rising"
+        ],
+        "important": [
+            2,
+            0,
+            7,
+            6,
+            4,
+            5,
+            8,
+            9
+        ],
+        "decent": [],
+        "bad": [
+            1,
+            3
+        ]
+    },
+    "Mihile": {
+        "skills": [
+            "Soul Blade",
+            "Royal Guard",
+            "Soul Driver",
+            "Radiant Driver",
+            "Trinity Attack",
+            "Four-Point Assault",
+            "Radiant Cross",
+            "Charging Light",
+            "Final Attack"
+        ],
+        "important": [
+            6,
+            5,
+            1
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            2,
+            3,
+            4,
+            7,
+            8
+        ]
+    },
+    "Aran": {
+        "skills": [
+            "Smash Wave",
+            "Smash Swing",
+            "Final Charge",
+            "Final Attack",
+            "Final Toss",
+            "Rolling Spin",
+            "Judgement Draw",
+            "Gathering Hook",
+            "Final Blow",
+            "Beyond Blade",
+            "Finisher - Storm of Fear",
+            "Finisher - Hunter's Prey",
+            "Maha's Domain"
+        ],
+        "important": [
+            9,
+            8,
+            3
+        ],
+        "decent": [
+            1,
+            11,
+            12
+        ],
+        "bad": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7,
+            10
+        ]
+    },
+    "Evan": {
+        "skills": [
+            "Mana Burst",
+            "Dragon Spark",
+            "Wind Circle",
+            "Dragon Flash",
+            "Thunder Circle",
+            "Dragon Dive",
+            "Magic Debris",
+            "Earth Circle",
+            "Dragon Breath",
+            "Dark Fog",
+            "Dragon Master",
+            "Summon Onyx Dragon"
+        ],
+        "important": [
+            0,
+            7,
+            2,
+            8,
+            10,
+            1
+        ],
+        "decent": [],
+        "bad": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            11
+        ]
+    },
+    "Mercedes": {
+        "skills": [
+            "Swift Dual Shot",
+            "Rising Rush",
+            "Stunning Strikes",
+            "Leaf Tornado and Gust Divide",
+            "Unicorn Spike",
+            "Elemental Knights",
+            "Ishtar's Ring",
+            "Spikes Royale",
+            "Lightning Edge",
+            "Wrath of Enlil"
+        ],
+        "important": [
+            6,
+            5,
+            7,
+            9,
+            4
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            8
+        ]
+    },
+    "Phantom": {
+        "skills": [
+            "Double Entendre",
+            "Calling Card",
+            "Carte Mille",
+            "Carte Blanc",
+            "Blason Fantome",
+            "Rapier Wit",
+            "Mille Aiguilles",
+            "Penombre",
+            "Tempest",
+            "Rose Carte Finale",
+            "Impeccable Memory I",
+            "Impeccable Memory II",
+            "Impeccable Memory III",
+            "Impeccable Memory IV"
+        ],
+        "important": [
+            6,
+            8,
+            3,
+            9,
+            13,
+            7
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            10,
+            11,
+            12
+        ]
+    },
+    "Luminous": {
+        "skills": [
+            "Flash Shower",
+            "Abyssal Drop",
+            "Sylvan Lance",
+            "Pressure Void",
+            "Spectral Light",
+            "Ray of Redemption",
+            "Moonlight Spear",
+            "Death Scythe",
+            "Reflection",
+            "Morning Star",
+            "Apocalypse",
+            "Ender",
+            "Armageddon"
+        ],
+        "important": [
+            8,
+            10,
+            11
+        ],
+        "decent": [
+            4,
+            9,
+            7
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            12
+        ]
+    },
+    "Shade": {
+        "skills": [
+            "Flash Fist",
+            "Ground Pound",
+            "Blade Imp - Downward Slash",
+            "Blade Imp - Forward Slash",
+            "Fox Spirits",
+            "Shockwave Punch",
+            "Blade Imp - Spin Slash",
+            "Spirit Frenzy",
+            "Spirit Trap",
+            "Spirit Redemption",
+            "Bomb Punch",
+            "Spirit Claw",
+            "Death Mark",
+            "Soul Splitter",
+            "Spirit Incarnation"
+        ],
+        "important": [
+            11,
+            10,
+            4,
+            13,
+            8,
+            14
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            12
+        ]
+    },
+    "Blaster": {
+        "skills": [
+            "Magnum Punch",
+            "Revolving Cannon",
+            "Bunker Buster Explosion",
+            "Detonate",
+            "Double Blast",
+            "Hammer Smash",
+            "Magnum Launch",
+            "Shotgun Punch",
+            "Muzzle Flash",
+            "Ballistic Hurricane",
+            "Revolving Blast",
+            "Hyper Magnum Punch"
+        ],
+        "important": [
+            0,
+            4,
+            1,
+            7,
+            2
+        ],
+        "decent": [
+            5
+        ],
+        "bad": [
+            3,
+            6,
+            8,
+            9,
+            10,
+            11
+        ]
+    },
+    "Battle Mage": {
+        "skills": [
+            "Triple Blow",
+            "Condemnation",
+            "Quad Blow",
+            "Dark Chain",
+            "Quintuple Blow",
+            "Battle Burst",
+            "Dark Shock",
+            "Finishing Blow",
+            "Dark Genesis",
+            "Sweeping Staff"
+        ],
+        "important": [
+            7,
+            6,
+            1,
+            8,
+            9
+        ],
+        "decent": [
+            5
+        ],
+        "bad": [
+            0,
+            2,
+            3,
+            4
+        ]
+    },
+    "Wild Hunter": {
+        "skills": [
+            "Double Shot, Triple Shot and Enduring Fire",
+            "Summon Jaguar",
+            "Swipe",
+            "Final Attack",
+            "Dash 'n Slash and White Heat Rush",
+            "White Heat Rush",
+            "Enduring Fire",
+            "Hunting Assistant Unit",
+            "Sonic Roar and Jaguar Soul",
+            "Wild Arrow Blast",
+            "Drill Salvo",
+            "Exploding Arrows and Jaguar Rampage"
+        ],
+        "important": [
+            9,
+            3,
+            1,
+            11,
+            7,
+            8
+        ],
+        "decent": [
+            2,
+            10
+        ],
+        "bad": [
+            0,
+            4,
+            5,
+            6
+        ]
+    },
+    "Mechanic": {
+        "skills": [
+            "ME-07 Drillhands",
+            "Gatling Gun",
+            "Rocket Booster",
+            "Heavy Gatling Gun",
+            "Homing Beacon",
+            "Robo Launcher RM7",
+            "Punch Launcher",
+            "Rock 'n Shock",
+            "Heavy and AP Salvo",
+            "Support Unit - H-EX",
+            "Giant Robot SG-88",
+            "Bots 'n Tots",
+            "Heavy and AP Salvo Plus",
+            "Distortion Bomb"
+        ],
+        "important": [
+            4,
+            12,
+            13,
+            9
+        ],
+        "decent": [
+            7,
+            11
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            8,
+            10
+        ]
+    },
+    "Demon Slayer": {
+        "skills": [
+            "Grim Scythe",
+            "Demon Lash",
+            "Soul Eater",
+            "Dark Thrust",
+            "Chaos Lock",
+            "Vengeance",
+            "Judgment",
+            "Vortex of Doom",
+            "Raven Storm",
+            "Carrion Breath",
+            "Infernal Concussion",
+            "Demon Impact",
+            "Demon Cry",
+            "Dark Metamorphosis",
+            "Binding Darkness",
+            "Cerberus Chomp"
+        ],
+        "important": [
+            11,
+            1,
+            15,
+            10,
+            12
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            13,
+            14
+        ]
+    },
+    "Demon Avenger": {
+        "skills": [
+            "Exceed - Double Slash",
+            "Exceed - Demon Strike",
+            "Bat Swarm",
+            "Exceed - Lunar Slash",
+            "Vitality Veil",
+            "Shield Charge",
+            "Exceed - Execution",
+            "Nether Shield",
+            "Nether Slice",
+            "Blood Prison",
+            "Thousand Swords",
+            "Infernal Exceed"
+        ],
+        "important": [
+            6,
+            7,
+            11,
+            3,
+            10
+        ],
+        "decent": [
+            9
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            8
+        ]
+    },
+    "Xenon": {
+        "skills": [
+            "Beam Spline",
+            "Pinpoint Salvo",
+            "Quicksilver",
+            "Ion Thrust",
+            "Combat Switch",
+            "Diagonal Chase",
+            "Gravity Pillar",
+            "Aegis System",
+            "Triangulation",
+            "Beam Dance",
+            "Mecha Purge",
+            "Hypogram Field",
+            "Entangling Lash",
+            "Orbital Cataclysm"
+        ],
+        "important": [
+            10,
+            9,
+            11,
+            8,
+            1,
+            7
+        ],
+        "decent": [
+            2,
+            5,
+            4
+        ],
+        "bad": [
+            0,
+            3,
+            6,
+            12,
+            13
+        ]
+    },
+    "Kaiser": {
+        "skills": [
+            "Dragon Slash",
+            "Flame Surge",
+            "Impact Wave",
+            "Piercing Blaze",
+            "Tempest Blades",
+            "Wing Beat",
+            "Pressure Chain",
+            "Stone Dragon",
+            "Gigas Wave",
+            "Dragon Barrage",
+            "Blade Burst",
+            "Inferno Breath",
+            "Ancestral Prominence"
+        ],
+        "important": [
+            8,
+            5,
+            4
+        ],
+        "decent": [
+            11,
+            7,
+            10
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            9,
+            12
+        ]
+    },
+    "Cadena": {
+        "skills": [
+            "Thrash, Muscle Memory & Reign of Chains",
+            "Summon Scimitar & Claw",
+            "Summon Daggers & Shuriken",
+            "Summon Shotgun & Decoy Bomb",
+            "Summon Brick",
+            "Chain Arts - Beatdown",
+            "Summon Spiked Bat",
+            "Crush & Veteran Shadowdealer"
+        ],
+        "important": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+        ],
+        "decent": [],
+        "bad": [
+            5,
+            7
+        ]
+    },
+    "Angelic Buster": {
+        "skills": [
+            "Soul Buster",
+            "Star Bubble",
+            "Lovely Sting",
+            "Pink Pummel",
+            "Soul Seeker",
+            "Shining Star Burst",
+            "Heavenly Crash",
+            "Celestial Roar",
+            "Trinity",
+            "Finale Ribbon",
+            "Soul Resonance",
+            "Supreme Supernova"
+        ],
+        "important": [
+            4,
+            8,
+            11
+        ],
+        "decent": [
+            7,
+            10,
+            9
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+        ]
+    },
+    "Illium": {
+        "skills": [
+            "Radiant Javelin II and Winged Javelin",
+            "Umbral Brand III",
+            "Reaction - Destruction II",
+            "Machina and Reaction - Domination II",
+            "Vortex Wings and Crystal Skill - Vortex of Light",
+            "Longinus Spear",
+            "Longinus Zone",
+            "Deus and Ex"
+        ],
+        "important": [
+            0,
+            3,
+            2,
+            5,
+            1,
+            7
+        ],
+        "decent": [],
+        "bad": [
+            4,
+            6
+        ]
+    },
+    "Ark": {
+        "skills": [
+            "Overcharge Drive",
+            "Ominous Nightmare and Dream",
+            "Scarlet Charge Drive and Grievous Wound",
+            "Unstoppable Impulse and Tenacious Instinct",
+            "Impending Death and Vengeful Hate",
+            "Gust Charge Drive and Insatiable Hunger",
+            "Abyssal Charge Drive and Unbridled Chaos",
+            "Creeping Terror, Blissful Restraint and Endless Agony"
+        ],
+        "important": [
+            0,
+            1,
+            4,
+            6,
+            5
+        ],
+        "decent": [
+            7,
+            3,
+            2
+        ],
+        "bad": []
+    },
+    "Adele": {
+        "skills": [
+            "Blade of Will",
+            "Magic Dispatch and Aetherial Arms",
+            "Skewering",
+            "Impale, Resonance Rush, and Shardbreaker",
+            "Aether Forge and Noble Summons",
+            "Eviscerate",
+            "Reign of Destruction and Plummet",
+            "Cleave",
+            "Hunting Decree and Grave Proclamation",
+            "Aether Bloom and Blade Torrent"
+        ],
+        "important": [
+            7,
+            8,
+            6,
+            4,
+            1,
+            9
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            2,
+            3,
+            5
+        ]
+    },
+    "Hayato": {
+        "skills": [
+            "Summer Rain",
+            "Hitokiri Hundred Strike",
+            "Sanrenzan",
+            "Blade Flash",
+            "Surging Blade",
+            "Shouryuusen",
+            "Jin Sanrenzan",
+            "Vapor Blade",
+            "Jin Blade Flash",
+            "Rising Slash",
+            "Falcon Dive",
+            "Fuu Sanrenzan",
+            "Fuu Blade Flash",
+            "Sweeping Sword",
+            "Whirlwind Cut",
+            "Dankuusen",
+            "Rai Sanrenzan",
+            "Rai Blade Flash",
+            "Tornado Blade",
+            "Sudden Strike",
+            "Shinsoku",
+            "Hitokiri Strike",
+            "Falcon's Honor"
+        ],
+        "important": [
+            17,
+            20,
+            16,
+            21,
+            22,
+            1
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+        ]
+    },
+    "Kanna": {
+        "skills": [
+            "Shikigami Haunting",
+            "Ghost Yaksha Boss",
+            "Kishin Shoukan",
+            "Nightghost Guide",
+            "Shikigami Charm",
+            "Exorcist's Charm",
+            "Tengu Strike",
+            "Yosuzume",
+            "Vanquisher's Charm",
+            "Orochi Unbound",
+            "Falling Sakura",
+            "Binding Tempest",
+            "Nine-Tailed Fury",
+            "Shikigami Doppelganger",
+            "Veritable Pandemonium"
+        ],
+        "important": [
+            1,
+            6,
+            1,
+            8,
+            7,
+            13
+        ],
+        "decent": [
+            2,
+            5,
+            12
+        ],
+        "bad": [
+            0,
+            3,
+            4,
+            9,
+            10,
+            11,
+            14
+        ]
+    },
+    "Hoyoung": {
+        "skills": [
+            "Humanity",
+            "Earth",
+            "Heaven",
+            "Talisman - Evil-Sealing Gourd and Thousand-Ton Stone",
+            "Ghost Flame",
+            "Degeneration",
+            "Butterfly Dream",
+            "Star Vortex",
+            "Clone"
+        ],
+        "important": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "decent": [],
+        "bad": []
+    },
+    "Zero": {
+        "skills": [
+            "Moon Strike",
+            "Piercing Thrust",
+            "Flash Assault",
+            "Spin Cutter",
+            "Rolling Cross",
+            "Rolling Assault",
+            "Wind Cutter",
+            "Wind Striker",
+            "Storm Break",
+            "Shadow Rain"
+        ],
+        "important": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "decent": [],
+        "bad": [
+            0,
+            2,
+            9
+        ]
+    },
+    "Beast Tamer": {
+        "skills": [
+            "Paw Swipe and Furious Strikes",
+            "Deep Breath",
+            "Really Deep Breath",
+            "Li'l Fort",
+            "Fishy Slap",
+            "Table Flip",
+            "Leopard's Paw and Leopard's Roar",
+            "Macho Dance, Macho Slam and Macho Incarnate",
+            "Thunder Dash and Thunder Trail",
+            "Three-Point Pounce",
+            "Party Time",
+            "Formation Attack and Baby Bombers",
+            "Tornado Flight",
+            "Friend Launcher",
+            "Fire Kitty!",
+            "Group Bear Blaster"
+        ],
+        "important": [
+            0,
+            3,
+            4
+        ],
+        "decent": [
+            9,
+            8,
+            7
+        ],
+        "bad": [
+            1,
+            2,
+            5,
+            6,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ]
+    },
+    "Kinesis": {
+        "skills": [
+            "Psychic Force",
+            "Kinetic Crash",
+            "Kinetic Piledriver",
+            "Ultimate - Deep Impact",
+            "Psychic Drain",
+            "Psychic Grab",
+            "Ultimate - Trainwreck",
+            "Kinetic Combo",
+            "Mind Break",
+            "Ultimate - B.P.M.",
+            "Mental Tempest",
+            "Mental Shock",
+            "Ultimate - Metal Press"
+        ],
+        "important": [
+            5,
+            9,
+            12,
+            6,
+            7
+        ],
+        "decent": [
+            8
+        ],
+        "bad": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10,
+            11
+        ]
+    }
+}
