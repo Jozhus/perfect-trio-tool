@@ -1,0 +1,23 @@
+{
+    "jobGroup": {
+        "Explorer": "#5A4636",
+        "Cygnus Knight": "#7DD2F5",
+        "Hero": "#34D657",
+        "Resistance": "#FEC907",
+        "Nova": "#6749BC",
+        "Flora": "#0E3A88",
+        "Sengoku": "#FFB7C5",
+        "Anima": "#7BFEB0",
+        "Child of God": "#780006",
+        "Song of Spirits": "#D5B184",
+        "Natural Genius": "#282C31"
+    },
+    "classType": {
+        "Warrior": "#AA2244",
+        "Magician": "#1188BB",
+        "Bowman": "#6C9933",
+        "Thief": "#6644CC",
+        "Pirate": "#667777",
+        "Hybrid": "#66609E"
+    }
+}

@@ -3,7 +3,8 @@ import { v4 as uuid } from "uuid";
 import { Input, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledCollapse, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { TrioEditor } from "./TrioEditor";
 import { Porter } from "./Porter";
-import classes from "./constants/constants.json";
+import classes from "./constants/classInfo.json";
+import groupColors from "./constants/groupColors.json";
 import "./css/inputs.css";
 
 class Inputs extends React.Component {
@@ -79,7 +80,17 @@ class Inputs extends React.Component {
                                             {this.props.settings.class || "Select your class"}
                                         </DropdownToggle>
                                         <DropdownMenu>
-                                            {Object.keys(classes).map(c => <DropdownItem key={uuid()} name={c} onClick={this.handleDropdownChange}>{c}</DropdownItem>)}
+                                            {Object.keys(classes).map(c =>
+                                                <DropdownItem
+                                                    key={uuid()}
+                                                    style={{
+                                                        borderLeft: `5px solid ${groupColors.jobGroup[classes[c].meta.jobGroup]}`,
+                                                        borderRight: `5px solid ${groupColors.classType[classes[c].meta.classType]}`
+                                                    }}
+                                                    name={c}
+                                                    onClick={this.handleDropdownChange}>
+                                                    {c}
+                                                </DropdownItem>)}
                                         </DropdownMenu>
                                     </UncontrolledDropdown>
                                     <br />

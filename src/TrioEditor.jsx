@@ -2,7 +2,7 @@ import React from "react";
 import { v4 as uuid } from "uuid";
 import { Button, Col, Row, Card, CardBody } from "reactstrap";
 import { Trio } from "./Trio";
-import classes from "./constants/constants.json";
+import classes from "./constants/classInfo.json";
 import "./css/trio-editor.css";
 
 class TrioEditor extends React.Component {

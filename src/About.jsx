@@ -36,23 +36,36 @@ class About extends React.Component {
                 <h3>Changelog</h3>
                 <hr />
                 <p>
-                    Version 1.3
+                    10/31/2020 - Version 1.4
+                </p>
+                <ul>
+                    <li>Added some colors for differing class types and job groups to make it a little easier to find a specific class in a list.</li>
+                    <li>It might look a bit ugly, but refer the the resources tab for reference</li>
+                </ul>
+                <p>
+                    10/30/2020 - Version 1.3.1
+                </p>
+                <ul>
+                    <li>Hero's perfect trio skills were one-off. I literally had Slash Blast as its most important skill lmao.</li>
+                </ul>
+                <p>
+                    10/30/2020 - Version 1.3
                 </p>
                 <ul>
                     <li>Changed the skill display for creating nodes into a grid instead of a scrolling list.</li>
                     <li>Deleting a node now un-highlights nodes that were in a selected group from the generated list.</li>
-                    <li>Added content to the resource tab so it's not empty</li>
+                    <li>Added content to the resources tab so it's not empty</li>
                     <li>More CSS bullshittery.</li>
                 </ul>
                 <p>
-                    Version 1.2
+                    10/29/2020 - Version 1.2
                 </p>
                 <ul>
                     <li>Fixed the algorithm because it wasn't fully working correctly.</li>
                     <li>Flipped this changelog so that versions are in descending order.</li>
                 </ul>
                 <p>
-                    Version 1.1
+                    10/29/2020 - Version 1.1
                 </p>
                 <ul>
                     <li>Fixed a few crashing bugs.</li>
@@ -61,7 +74,7 @@ class About extends React.Component {
                     <li>Added / modified some info texts.</li>
                 </ul>
                 <p>
-                    Version 1.0
+                    10/29/2020 - Version 1.0
                 </p>
                 <ul>
                     <li>Gave this brute-forcing algorithm a GUI.</li>

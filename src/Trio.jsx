@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 as uuid } from "uuid";
-import classes from "./constants/constants.json";
+import classes from "./constants/classInfo.json";
 import "./css/trio.css";
 
 class Trio extends React.Component {
