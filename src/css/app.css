@@ -24,6 +24,6 @@
                                     supported by Chrome, Edge, Opera and Firefox */
 }
 
-.clickable:hover {
+.clickable {
     cursor: pointer;
 }

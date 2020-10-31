@@ -3,6 +3,11 @@
     margin-top: 13px;
 }
 
+.skillIcon {
+    width: 32px;
+    height: 32px;
+}
+
 .dropdown-toggle, .dropdown-menu {
     width: 100%;
 }

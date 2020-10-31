@@ -23,23 +23,30 @@ function* generateNextTrioGroup(input, need, max) {
 
         for (var trio of arr) {
             const perfectGroup = [...memo, trio];
-            let localPool = pool;
+            let localPool = [...pool];
             // Get rid of skills that are already maxed from the pool of needed skills.
-            trio.forEach(num => localPool = localPool.replace(new RegExp(`${num}`), ''));
+            trio.forEach(num => {
+                const index = localPool.indexOf(num);
+
+                if (~index) {
+                    localPool.splice(index, 1);
+                }
+            });
 
             // A group is perfect IFF the pool of needed skills is exhausted. Make sure no duplicates ordered differently get added.
-            if (localPool.length === 0 && perfectGroup.length <= max && seen.every(sol => sol.sort().join('') !== perfectGroup.sort().join(''))) {
+            if (localPool.length === 0 && perfectGroup.length <= max && seen.every(sol => sol.sort().join("") !== perfectGroup.sort().join(""))) {
                 seen.push(perfectGroup);
                 yield perfectGroup.map(trio => trio.map(num => parseInt(num)));
             }
 
+            // el.every(ell => localPool.concat(dontCares).includes(ell)) // This was bad.
             // Get rid of all trios that start with the same skill as the current trio and make sure every skill in each trio still needs to be maxed or is a useless skill. Recurse.
-            yield* subset(arr.filter(el => el[0] !== trio[0] && el.every(ell => localPool.concat(dontCares).includes(ell))), localPool, perfectGroup);
+            yield* subset(arr.filter(el => el[0] !== trio[0] && localPool.some(ell => el.includes(ell))), localPool, perfectGroup);
         }
     }
 
     // Get rid of duplicate trios.
-    yield* subset(removeDuplicates(input), need.concat(need).join(''));
+    yield* subset(removeDuplicates(input), need.concat(need));
 }
 
 function removeDuplicates(input) {

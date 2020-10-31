@@ -7,7 +7,7 @@ class Trio extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="node clickable">
+                <div className="node clickable noselect">
                     <div className="nodeFrame">
                         <img
                             src={"./images/node-frame.png"}

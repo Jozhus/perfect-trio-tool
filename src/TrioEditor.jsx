@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 as uuid } from "uuid";
-import { Button, ListGroup, ListGroupItem, Col, Row } from "reactstrap";
+import { Button, Col, Row, Card, CardBody } from "reactstrap";
 import { Trio } from "./Trio";
 import classes from "./constants/constants.json";
 import "./css/trio-editor.css";
@@ -78,30 +78,28 @@ class TrioEditor extends React.Component {
             <React.Fragment>
                 <Row style={{}}>
                     <Col xs="6" className="verticalDivider">
-                        <ListGroup className="container">
+                        <div className="skillList">
                             {this.props.settings.class ?
                                 classes[this.props.settings.class].important.concat(
                                     classes[this.props.settings.class].decent).concat(
                                         classes[this.props.settings.class].bad).map(skillNum =>
-                                            <ListGroupItem
+                                            <Card
                                                 key={uuid()}
-                                                className="noselect clickable"
+                                                className="cell noselect clickable"
                                                 onClick={() => this.handleSkillSelected(skillNum)}
                                                 style={this.state.selectedSkills.indexOf(skillNum) === 0 ? { background: "#208637" }
                                                     : this.state.selectedSkills.indexOf(skillNum) > 0 ? { background: "#67da82" }
                                                         : null}
-                                                disabled={!this.state.selectedSkills.includes(skillNum) && this.state.selectedSkills.every(skill => ~skill)}
                                             >
-                                                <img
-                                                    className="skillIcon"
-                                                    src={`./images/skills/${this.props.settings.class}/${classes[this.props.settings.class].skills[skillNum]}.png`}
-                                                    alt={classes[this.props.settings.class].skills[skillNum]}
-                                                />
-                                                {"  " + classes[this.props.settings.class].skills[skillNum]}
-                                            </ListGroupItem>
-                                        )
-                                : null}
-                        </ListGroup>
+                                                <CardBody>
+                                                    <img
+                                                        className="skillIcon"
+                                                        src={`./images/skills/${this.props.settings.class}/${classes[this.props.settings.class].skills[skillNum]}.png`}
+                                                        alt={classes[this.props.settings.class].skills[skillNum]}
+                                                    />
+                                                </CardBody>
+                                            </Card>) : null}
+                        </div>
                         <hr />
                         <Row>
                             <Col>
@@ -139,7 +137,7 @@ class TrioEditor extends React.Component {
                         </Row>
                     </Col>
                     <Col xs="6" className="verticalDivider">
-                        <div className="container nodes">
+                        <div className="nodes">
                             {this.props.settings.class ? this.props.settings.inputs.map((trio, i) =>
                                 <div
                                     key={uuid()}

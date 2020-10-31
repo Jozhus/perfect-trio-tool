@@ -9,11 +9,6 @@
     overflow-x: hidden;
 }
 
-.skillIcon {
-    width: 32px;
-    height: 32px;
-}
-
 .verticalDivider {
     border-left: 1px solid rgba(140, 130, 115, 0.1);
 }
@@ -25,5 +20,31 @@
 }
 
 .nodes {
-    max-height: 740px;
+    max-height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.skillList {
+    text-align: center; 
+}
+
+.cell {
+    display: inline-flex;  
+    margin: 3px;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body > .skillIcon {
+    width: 100%;
+    height: 100%;
 }

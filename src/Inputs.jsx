@@ -50,28 +50,28 @@ class Inputs extends React.Component {
                 <UncontrolledCollapse toggler="#toggler">
                     <Row style={{ margin: "2px", paddingTop: "13px" }}>
                         <Col xs="4">
-                            <ListGroup className="container">
-                                {this.props.settings.class ?
-                                    classes[this.props.settings.class].important.concat(
-                                        classes[this.props.settings.class].decent).concat(
-                                            classes[this.props.settings.class].bad).map(skillNum =>
-                                                <ListGroupItem
-                                                    key={uuid()}
-                                                    className="noselect clickable"
-                                                    onClick={() => this.handleNeededChange(skillNum)}
-                                                    style={this.props.settings.needed.includes(skillNum) ? { background: "#0055B1" } : null}
-                                                >
-                                                    <img
-                                                        className="skillIcon"
-                                                        src={`./images/skills/${this.props.settings.class}/${classes[this.props.settings.class].skills[skillNum]}.png`}
-                                                        alt={classes[this.props.settings.class].skills[skillNum]}
-                                                    />
-                                                    {"  " + classes[this.props.settings.class].skills[skillNum]}
-                                                </ListGroupItem>
-                                            )
-                                    : null}
-                            </ListGroup>
-                            <hr />
+                            {this.props.settings.class ?
+                                <div>
+                                    <ListGroup className="container">
+                                        {classes[this.props.settings.class].important.concat(
+                                            classes[this.props.settings.class].decent).concat(
+                                                classes[this.props.settings.class].bad).map(skillNum =>
+                                                    <ListGroupItem
+                                                        key={uuid()}
+                                                        className="noselect clickable"
+                                                        onClick={() => this.handleNeededChange(skillNum)}
+                                                        style={this.props.settings.needed.includes(skillNum) ? { background: "#0055B1" } : null}
+                                                    >
+                                                        <img
+                                                            className="skillIcon"
+                                                            src={`./images/skills/${this.props.settings.class}/${classes[this.props.settings.class].skills[skillNum]}.png`}
+                                                            alt={classes[this.props.settings.class].skills[skillNum]}
+                                                        />
+                                                        {"  " + classes[this.props.settings.class].skills[skillNum]}
+                                                    </ListGroupItem>)}
+                                    </ListGroup>
+                                    <hr />
+                                </div> : null}
                             <Row>
                                 <Col>
                                     <UncontrolledDropdown>

@@ -36,10 +36,20 @@ class About extends React.Component {
                 <h3>Changelog</h3>
                 <hr />
                 <p>
-                    Version 1.0
+                    Version 1.3
                 </p>
                 <ul>
-                    <li>Gave this brute-forcing algorithm a GUI.</li>
+                    <li>Changed the skill display for creating nodes into a grid instead of a scrolling list.</li>
+                    <li>Deleting a node now un-highlights nodes that were in a selected group from the generated list.</li>
+                    <li>Added content to the resource tab so it's not empty</li>
+                    <li>More CSS bullshittery.</li>
+                </ul>
+                <p>
+                    Version 1.2
+                </p>
+                <ul>
+                    <li>Fixed the algorithm because it wasn't fully working correctly.</li>
+                    <li>Flipped this changelog so that versions are in descending order.</li>
                 </ul>
                 <p>
                     Version 1.1
@@ -49,6 +59,12 @@ class About extends React.Component {
                     <li>Made skill text non-selectable.</li>
                     <li>Changed mouse hover icons for certain components.</li>
                     <li>Added / modified some info texts.</li>
+                </ul>
+                <p>
+                    Version 1.0
+                </p>
+                <ul>
+                    <li>Gave this brute-forcing algorithm a GUI.</li>
                 </ul>
             </div>
         );

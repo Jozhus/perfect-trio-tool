@@ -30,7 +30,14 @@ class Tool extends React.Component {
   updateSettings(newSettings) {
     const settings = { ...this.state.settings, ...newSettings };
 
-    this.setState({ settings, trioGenerator: generateNextTrioGroup(settings.inputs, settings.needed, settings.maxSlots), output: [], done: false, outputKey: uuid() });
+    this.setState({
+      settings,
+      trioGenerator: generateNextTrioGroup(settings.inputs, settings.needed, settings.maxSlots),
+      done: false,
+      output: [],
+      selectedGroup: [],
+      outputKey: uuid()
+    });
   }
 
   updateSelectedGroup(selectedGroup) {
