@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/maplestory-perfect-trio-tool/static/css/main.8c2f54b2.chunk.css",
+    "main.js": "/maplestory-perfect-trio-tool/static/js/main.592eab2b.chunk.js",
+    "main.js.map": "/maplestory-perfect-trio-tool/static/js/main.592eab2b.chunk.js.map",
+    "runtime-main.js": "/maplestory-perfect-trio-tool/static/js/runtime-main.fcc7ff72.js",
+    "runtime-main.js.map": "/maplestory-perfect-trio-tool/static/js/runtime-main.fcc7ff72.js.map",
+    "static/css/2.95f25948.chunk.css": "/maplestory-perfect-trio-tool/static/css/2.95f25948.chunk.css",
+    "static/js/2.4a9e66d1.chunk.js": "/maplestory-perfect-trio-tool/static/js/2.4a9e66d1.chunk.js",
+    "static/js/2.4a9e66d1.chunk.js.map": "/maplestory-perfect-trio-tool/static/js/2.4a9e66d1.chunk.js.map",
+    "index.html": "/maplestory-perfect-trio-tool/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/maplestory-perfect-trio-tool/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.8c2f54b2.chunk.css.map": "/maplestory-perfect-trio-tool/static/css/main.8c2f54b2.chunk.css.map",
+    "static/js/2.4a9e66d1.chunk.js.LICENSE.txt": "/maplestory-perfect-trio-tool/static/js/2.4a9e66d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcc7ff72.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.4a9e66d1.chunk.js",
+    "static/css/main.8c2f54b2.chunk.css",
+    "static/js/main.592eab2b.chunk.js"
+  ]
+}
