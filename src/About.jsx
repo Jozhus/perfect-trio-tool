@@ -33,14 +33,45 @@ class About extends React.Component {
                 <p>The main challenge is finding a grouping of boost nodes that can actually accomplish this and do so efficiently.</p>
                 <p>That's where this tool comes in. You insert all your boost nodes, chooses which skills you need and it will identify all (given enough time) node grouping options letting you pick and choose which one to use.</p>
                 <br />
+                <h3>Contact me</h3>
+                <hr />
+                <p>
+                    If any information in here is wrong (which there probably are some) or something is broken (which it likely is) or if you just have a feature to suggest, you can contact me on any of the following:
+                </p>
+                <ul>
+                    <li>MagicBully in-game NA Reboot</li>
+                    <li><a href="mailto:magicbully@socialdistance.wtf">magicbully@socialdistance.wtf</a></li>
+                    <li>Jozhus#2428 on Discord</li>
+                </ul>
+                <br />
                 <h3>Changelog</h3>
                 <hr />
+                <p>
+                    11/5/2020 - Version 1.4.3
+                </p>
+                <ul>
+                    <li>Fixed mistake with Kanna's listed important boost nodes.</li>
+                    <li>Revised Kanna's based on information from <a href="https://docs.google.com/document/d/1oyJSU3EUaJ4HPlG7IcGogHTc-0Iju2rw5XCXi2fIoK8/edit#">How to Train Your Haku</a>.</li>
+                </ul>
+                <p>
+                    11/5/2020 - Version 1.4.2
+                </p>
+                <ul>
+                    <li>Revised Beast Tamer's job group.</li>
+                    <li>Added contact information.</li>
+                </ul>
+                <p>
+                    10/31/2020 - Version 1.4.1
+                </p>
+                <ul>
+                    <li>Changed how the job group and class colors appear on the resources page to be a little less jarring.</li>
+                </ul>
                 <p>
                     10/31/2020 - Version 1.4
                 </p>
                 <ul>
                     <li>Added some colors for differing class types and job groups to make it a little easier to find a specific class in a list.</li>
-                    <li>It might look a bit ugly, but refer the the resources tab for reference</li>
+                    <li>It might look a bit ugly, but refer the the resources tab for reference.</li>
                 </ul>
                 <p>
                     10/30/2020 - Version 1.3.1
@@ -54,7 +85,7 @@ class About extends React.Component {
                 <ul>
                     <li>Changed the skill display for creating nodes into a grid instead of a scrolling list.</li>
                     <li>Deleting a node now un-highlights nodes that were in a selected group from the generated list.</li>
-                    <li>Added content to the resources tab so it's not empty</li>
+                    <li>Added content to the resources tab so it's not empty.</li>
                     <li>More CSS bullshittery.</li>
                 </ul>
                 <p>

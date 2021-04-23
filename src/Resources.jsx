@@ -10,9 +10,20 @@ class Resources extends React.Component {
         return (
             <React.Fragment>
                 <div style={{ padding: "15px" }}>
+                    <br />
                     <p>
-                        I'll probably be formatting this differently later, but for now, here are all the classes and their respective important skills as I have found during my research.
+                        The following is a list of all possible skills on a boost node for every class.
                     </p>
+                    <p>
+                        Hopefully we can all take solace in the fact that we aren't Hayato mains who hold the record for the largest pool of potentially boostable skills with a whopping grand total of 23 skills.
+                    </p>
+                    <p>Information was sourced from:</p>
+                    <ul>
+                        <li><a href="https://www.reddit.com/r/Maplestory/comments/5nhdam/v_matrix_optimization_guide_for_all_classes/">V Matrix Optimization Guide for All Classes</a></li>
+                        <li><a href="https://docs.google.com/document/d/1oyJSU3EUaJ4HPlG7IcGogHTc-0Iju2rw5XCXi2fIoK8/edit#">How to Train Your Haku</a></li>
+                        <li>Maining multiple classes like a complete idiot</li>
+                        <li>Word of mouth</li>
+                    </ul>
                     <br />
                     <hr />
                     <div className="classList">
@@ -37,7 +48,7 @@ class Resources extends React.Component {
                                 {Object.entries(groupColors.classType).map(([classType, color]) =>
                                     <ListGroupItem
                                         key={uuid()}
-                                        style={{ border: `3px solid ${color}`, textAlign: "center" }}
+                                        style={{ background: `linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, ${color} 100%)`, textAlign: "center" }}
                                     >
                                         {classType}
                                     </ListGroupItem>
@@ -45,7 +56,7 @@ class Resources extends React.Component {
                                 {Object.entries(groupColors.jobGroup).map(([jobGroup, color]) =>
                                     <ListGroupItem
                                         key={uuid()}
-                                        style={{ background: `linear-gradient(90deg, ${color} 0%, rgba(0,0,0,0) 50%, ${color} 100%)`, textAlign: "center" }}
+                                        style={{ background: `linear-gradient(90deg, ${color} 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%)`, textAlign: "center" }}
                                     >
                                         {jobGroup}
                                     </ListGroupItem>
@@ -57,8 +68,7 @@ class Resources extends React.Component {
                             <Card key={uuid()}>
                                 <CardHeader
                                     style={{
-                                        background: `linear-gradient(90deg, ${groupColors.jobGroup[classes[className].meta.jobGroup]} 0%, rgba(0,0,0,0) 50%, ${groupColors.jobGroup[classes[className].meta.jobGroup]} 100%)`,
-                                        border: `3px solid ${groupColors.classType[classes[className].meta.classType]}`
+                                        background: `linear-gradient(90deg, ${groupColors.jobGroup[classes[className].meta.jobGroup]} 0%, rgba(0,0,0,0) 50%, ${groupColors.classType[classes[className].meta.classType]} 100%)`,
                                     }}
                                 >
                                     {className}
